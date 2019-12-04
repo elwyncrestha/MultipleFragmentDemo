@@ -22,4 +22,8 @@ public class Operation {
         return number == reverseNumber(number);
     }
 
+    public static String reverseString(String string) {
+        return new StringBuffer(string).reverse().toString();
+    }
+
 }
