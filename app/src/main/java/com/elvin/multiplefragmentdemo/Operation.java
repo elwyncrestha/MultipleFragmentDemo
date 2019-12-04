@@ -26,4 +26,8 @@ public class Operation {
         return new StringBuffer(string).reverse().toString();
     }
 
+    public static boolean automorphicNumber(int number) {
+        return String.valueOf(number * number).endsWith(String.valueOf(number));
+    }
+
 }
