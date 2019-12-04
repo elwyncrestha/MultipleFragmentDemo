@@ -18,4 +18,8 @@ public class Operation {
         return reverse;
     }
 
+    public static boolean palindromeNumber(int number) {
+        return number == reverseNumber(number);
+    }
+
 }
