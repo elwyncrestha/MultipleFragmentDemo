@@ -9,4 +9,13 @@ public class Operation {
         return (float) Math.PI * radius * radius;
     }
 
+    public static int reverseNumber(int num) {
+        int reverse = 0;
+        while (num % 10 != 0) {
+            reverse = reverse * 10 + (num % 10);
+            num = num / 10;
+        }
+        return reverse;
+    }
+
 }
